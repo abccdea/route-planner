@@ -1,17 +1,22 @@
-# Route Planning Project Starter Code
+# Route Planner
 
-This is the starter code for the Route Planning project. Instructions for each exercise can be found in the `instructions` directory, and unit tests for some exercises in the `test` directory.
+This project will use OpenStreetMap data and the IO2D visualization library to build a route planner that finds a path between two points on a real-world map.
+
+Instructions for each exercise can be found in the `instructions` directory, and unit tests for some exercises in the `test` directory.
+
+---
 
 ## Cloning
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/wangzuowen/Build-an-OpenStreetMap-Route-Planner.git --recurse-submodules
+git clone https://github.com/wangzuowen/route-planner.git --recurse-submodules
 ```
 or with SSH:
 ```
-git clone git@github.com:wangzuowen/Build-an-OpenStreetMap-Route-Planner.git --recurse-submodules
+git clone git@github.com:wangzuowen/route-planner.git --recurse-submodules
 ```
+---
 
 ## Compiling and Running
 
@@ -30,6 +35,8 @@ The executables will be placed in the `bin` directory. From within `build`, you 
 ```
 ../bin/<name-of-parent-directory> -f ../map.osm
 ```
+
+---
 
 ## Testing
 
